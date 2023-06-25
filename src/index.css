@@ -10,3 +10,12 @@
 html{
   font-size: 62.5%;
 }
+
+body{
+  background-color: #ebebeb;
+}
+
+.conteiner{
+  max-width: 1110px;
+  margin: 0 auto;
+}
