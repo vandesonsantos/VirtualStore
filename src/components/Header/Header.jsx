@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import SearchBar from '../SearchBar/SearchBar';
+import BsCart from '../cartButton/cartButton';
 
 function Header() {
   return (
@@ -9,8 +10,8 @@ function Header() {
 
         <SearchBar />
 
-        <button>car</button>
-
+        <BsCart />
+        
       </div>
     </header>
   );
