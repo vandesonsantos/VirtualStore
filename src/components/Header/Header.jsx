@@ -7,11 +7,8 @@ function Header() {
   return (
     <header className="header">
       <div className="conteiner">
-
         <SearchBar />
-
         <BsCart />
-        
       </div>
     </header>
   );
