@@ -9,7 +9,7 @@ function Products() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetchProducts('iphone').then((response) => {
+    fetchProducts('game').then((response) => {
       setProducts(response);
     });
   }, []);
