@@ -9,11 +9,11 @@
   position: relative;
   cursor: pointer;
   margin-left: 30px;
-  color: #333;
+  color: #fff;
 }
 
 .cart-status{
-  background-color: #ff0000;
+  background-color: #ff0000e0;
   width: 15px;
   height: 15px;
   color: #ffff;
