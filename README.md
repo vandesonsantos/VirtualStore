@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Carrinho de Compras com React JS e Consumindo API do Mercado Livre
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[<img src="./src/image/tela-readme.gif">](https://virtual-storee.vercel.app/) 
+ 
 
-## Available Scripts
 
-In the project directory, you can run:
+## Descrição do Projeto
 
-### `npm start`
+Este é um projeto de desenvolvimento de um carrinho de compras usando a biblioteca React JS e consumindo a API do Mercado Livre, uma das mais populares no momento. O objetivo é criar uma aplicação web que permita aos usuários pesquisar produtos disponíveis no Mercado Livre, adicioná-los ao carrinho e finalizar a compra.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades
 
-### `npm test`
+Pesquisa de produtos no Mercado Livre: Os usuários poderão realizar buscas por palavras-chave e encontrar produtos disponíveis para compra na plataforma do Mercado Livre.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Listagem de resultados: Os produtos relacionados à pesquisa serão exibidos em uma lista, mostrando informações relevantes como título, preço, imagem, e outras informações relevantes.
 
-### `npm run build`
+Adicionar/remover itens ao carrinho: Os usuários poderão adicionar itens ao carrinho de compras, bem como removê-los, permitindo que possam ajustar sua seleção antes de finalizar a compra.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Detalhes do produto: Ao clicar em um produto da lista, será possível visualizar informações detalhadas do mesmo, como descrição, condição do produto, localização do vendedor, entre outras informações relevantes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Finalização da compra: Ao revisar o carrinho, o usuário poderá finalizar a compra, inserindo informações de pagamento e endereço de entrega.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Tecnologias Utilizadas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React JS: A biblioteca JavaScript para construção de interfaces de usuário será a base deste projeto, permitindo criar componentes reutilizáveis e atualização eficiente do DOM.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Axios: A biblioteca Axios será utilizada para realizar as requisições HTTP à API do Mercado Livre, facilitando o consumo dos dados retornados pela API.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Mercado Livre API: A API do Mercado Livre será utilizada para obter informações sobre os produtos, realizar pesquisas e obter detalhes de um produto específico.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Instalação
 
-## Learn More
+Clone este repositório para o seu ambiente local.
+Certifique-se de ter o Node.js e o npm (Node Package Manager) instalados em sua máquina.
+No terminal, navegue até a pasta do projeto e execute o comando npm install para instalar as dependências do projeto.
+Após a conclusão da instalação, execute o comando npm start para iniciar o servidor local.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Como Contribuir
+
+Contribuições são bem-vindas! Se você deseja contribuir com este projeto, siga os passos abaixo:
+
+Faça um fork deste repositório.
+
+Crie uma branch com a sua feature ou correção: git checkout -b minha-feature
+
+Faça commit das suas alterações: git commit -m 'Minha nova feature'
+
+Faça push para a branch: git push origin minha-feature
+
+Abra um Pull Request descrevendo as alterações propostas.
+
 
 ### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
